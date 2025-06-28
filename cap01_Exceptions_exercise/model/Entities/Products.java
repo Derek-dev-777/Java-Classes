@@ -1,4 +1,4 @@
-package cap02_Exception;
+package model.Entities;
 
 public class Products {
 	

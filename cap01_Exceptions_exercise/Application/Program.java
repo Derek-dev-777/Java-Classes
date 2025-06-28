@@ -1,4 +1,4 @@
-package cap02_Exception;
+package Application;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,6 +9,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import model.Entities.Products;
 
 public class Program {
 	
@@ -26,7 +28,6 @@ public class Program {
 		File sourceFile = new File(filePathStr);
 		String sourceFolderStr = sourceFile.getParent(); // coletando a root do arquivo
 		
-		boolean sucess = new File(sourceFolderStr + "\\out").mkdir(); // criando a pasta onde vai estar o out
 		String targetFileStr = sourceFolderStr + "\\out\\sumary.csv";
 		
 		// Lendo o arquivo que o usuario nos informou utilizando try resource
