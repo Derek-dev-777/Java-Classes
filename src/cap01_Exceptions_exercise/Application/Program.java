@@ -1,4 +1,4 @@
-package Application;
+package cap01_Exceptions_exercise.Application;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import model.Entities.Products;
+import cap01_Exceptions_exercise.model.Entities.Products;
 
 public class Program {
 	

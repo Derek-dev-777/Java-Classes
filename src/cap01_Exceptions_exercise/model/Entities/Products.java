@@ -1,4 +1,4 @@
-package model.Entities;
+package cap01_Exceptions_exercise.model.Entities;
 
 public class Products {
 	

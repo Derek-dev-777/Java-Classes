@@ -1,4 +1,4 @@
-package Model.Entities;
+package cap02_Interfaces_Exercise01.Model.Entities;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

@@ -1,16 +1,16 @@
-package Model.Services;
+package cap02_Interfaces_Exercise01.Model.Services;
 
 import java.time.LocalDate;
 
-import Model.Entities.Contract;
-import Model.Entities.Installment;
+import cap02_Interfaces_Exercise01.Model.Entities.Contract;
+import cap02_Interfaces_Exercise01.Model.Entities.Installment;
 
 public class ContractService {
 	
-	private OnlinePaymentService onlinePaymentService;
+	private cap02_Interfaces_Exercise01.Model.Services.OnlinePaymentService onlinePaymentService;
 	
 	// Constructor
-	public ContractService(OnlinePaymentService onlinePaymentService) {
+	public ContractService(cap02_Interfaces_Exercise01.Model.Services.OnlinePaymentService onlinePaymentService) {
 		
 		this.onlinePaymentService = onlinePaymentService;
 	}

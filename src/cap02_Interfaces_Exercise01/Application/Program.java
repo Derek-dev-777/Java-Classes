@@ -1,12 +1,12 @@
-package Application;
+package cap02_Interfaces_Exercise01.Application;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-import Model.Entities.Contract;
-import Model.Entities.Installment;
-import Model.Services.ContractService;
+import cap02_Interfaces_Exercise01.Model.Entities.Contract;
+import cap02_Interfaces_Exercise01.Model.Entities.Installment;
+import cap02_Interfaces_Exercise01.Model.Services.ContractService;
 
 public class Program {
 	
